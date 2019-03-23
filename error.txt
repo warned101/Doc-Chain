@@ -1,0 +1,113 @@
+/tmp/ccECiNHH.o: In function `main':
+main.cpp:(.text+0x34): undefined reference to `std::cout'
+main.cpp:(.text+0x39): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+main.cpp:(.text+0x43): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+main.cpp:(.text+0x4e): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+main.cpp:(.text+0x5d): undefined reference to `std::allocator<char>::allocator()'
+main.cpp:(.text+0x7a): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+main.cpp:(.text+0xcc): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+main.cpp:(.text+0xdb): undefined reference to `std::allocator<char>::~allocator()'
+main.cpp:(.text+0x126): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+main.cpp:(.text+0x13a): undefined reference to `std::allocator<char>::~allocator()'
+/tmp/ccECiNHH.o: In function `__static_initialization_and_destruction_0(int, int)':
+main.cpp:(.text+0x191): undefined reference to `std::ios_base::Init::Init()'
+main.cpp:(.text+0x1a6): undefined reference to `std::ios_base::Init::~Init()'
+/tmp/ccECiNHH.o: In function `Block::~Block()':
+main.cpp:(.text._ZN5BlockD2Ev[_ZN5BlockD5Ev]+0x18): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+main.cpp:(.text._ZN5BlockD2Ev[_ZN5BlockD5Ev]+0x28): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+main.cpp:(.text._ZN5BlockD2Ev[_ZN5BlockD5Ev]+0x34): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccECiNHH.o: In function `__gnu_cxx::new_allocator<Block>::deallocate(Block*, unsigned long)':
+main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI5BlockE10deallocateEPS1_m[_ZN9__gnu_cxx13new_allocatorI5BlockE10deallocateEPS1_m]+0x1c): undefined reference to `operator delete(void*)'
+/tmp/ccECiNHH.o:(.data.rel.local.DW.ref.__gxx_personality_v0[DW.ref.__gxx_personality_v0]+0x0): undefined reference to `__gxx_personality_v0'
+/tmp/ccQNUYQ4.o: In function `Block::Block(unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Block.cpp:(.text+0x1c): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Block.cpp:(.text+0x3d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Block.cpp:(.text+0x4d): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()'
+Block.cpp:(.text+0x7f): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccQNUYQ4.o: In function `Block::GetHash[abi:cxx11]()':
+Block.cpp:(.text+0xb9): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/tmp/ccQNUYQ4.o: In function `Block::MineBlock(unsigned int)':
+Block.cpp:(.text+0x1a9): undefined reference to `std::allocator<char>::allocator()'
+Block.cpp:(.text+0x1c6): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+Block.cpp:(.text+0x1d5): undefined reference to `std::allocator<char>::~allocator()'
+Block.cpp:(.text+0x21f): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+Block.cpp:(.text+0x22b): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Block.cpp:(.text+0x250): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::substr(unsigned long, unsigned long) const'
+Block.cpp:(.text+0x271): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Block.cpp:(.text+0x288): undefined reference to `std::cout'
+Block.cpp:(.text+0x28d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+Block.cpp:(.text+0x2a6): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Block.cpp:(.text+0x2b0): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+Block.cpp:(.text+0x2bb): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+Block.cpp:(.text+0x2c7): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Block.cpp:(.text+0x2ee): undefined reference to `std::allocator<char>::~allocator()'
+Block.cpp:(.text+0x308): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/ccQNUYQ4.o: In function `__static_initialization_and_destruction_0(int, int)':
+Block.cpp:(.text+0x34a): undefined reference to `std::ios_base::Init::Init()'
+Block.cpp:(.text+0x35f): undefined reference to `std::ios_base::Init::~Init()'
+/tmp/ccQNUYQ4.o: In function `Block::_CalculateHash[abi:cxx11]() const':
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x47): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::basic_stringstream(std::_Ios_Openmode)'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x66): undefined reference to `std::ostream::operator<<(unsigned int)'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x7f): undefined reference to `std::ostream::operator<<(long)'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x98): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0xb1): undefined reference to `std::ostream::operator<<(long)'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0xc6): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0xdf): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::str() const'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x108): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x117): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x142): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Block.cpp:(.text._ZNK5Block14_CalculateHashB5cxx11Ev[_ZNK5Block14_CalculateHashB5cxx11Ev]+0x156): undefined reference to `std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()'
+/tmp/ccQNUYQ4.o: In function `__gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+Block.cpp:(.text._ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_[_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_]+0x1b): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Block.cpp:(.text._ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_[_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_]+0x2a): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Block.cpp:(.text._ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_[_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_]+0x3b): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const'
+Block.cpp:(.text._ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_[_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_]+0x4a): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::data() const'
+Block.cpp:(.text._ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_[_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_]+0x59): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::data() const'
+/tmp/cc2WGUut.o: In function `Blockchain::Blockchain()':
+Blockchain.cpp:(.text+0x4b): undefined reference to `std::allocator<char>::allocator()'
+Blockchain.cpp:(.text+0x68): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+Blockchain.cpp:(.text+0xb3): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Blockchain.cpp:(.text+0xc2): undefined reference to `std::allocator<char>::~allocator()'
+Blockchain.cpp:(.text+0x107): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Blockchain.cpp:(.text+0x11b): undefined reference to `std::allocator<char>::~allocator()'
+/tmp/cc2WGUut.o: In function `Blockchain::AddBlock(Block)':
+Blockchain.cpp:(.text+0x1bc): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+Blockchain.cpp:(.text+0x1cb): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/cc2WGUut.o: In function `__static_initialization_and_destruction_0(int, int)':
+Blockchain.cpp:(.text+0x2b1): undefined reference to `std::ios_base::Init::Init()'
+Blockchain.cpp:(.text+0x2c6): undefined reference to `std::ios_base::Init::~Init()'
+/tmp/cc2WGUut.o: In function `Block::Block(Block const&)':
+Blockchain.cpp:(.text._ZN5BlockC2ERKS_[_ZN5BlockC5ERKS_]+0x20): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Blockchain.cpp:(.text._ZN5BlockC2ERKS_[_ZN5BlockC5ERKS_]+0x59): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Blockchain.cpp:(.text._ZN5BlockC2ERKS_[_ZN5BlockC5ERKS_]+0x74): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+Blockchain.cpp:(.text._ZN5BlockC2ERKS_[_ZN5BlockC5ERKS_]+0x99): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+Blockchain.cpp:(.text._ZN5BlockC2ERKS_[_ZN5BlockC5ERKS_]+0xaa): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()'
+/tmp/cc2WGUut.o: In function `void std::vector<Block, std::allocator<Block> >::_M_realloc_insert<Block>(__gnu_cxx::__normal_iterator<Block*, std::vector<Block, std::allocator<Block> > >, Block&&)':
+Blockchain.cpp:(.text._ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_[_ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_]+0x211): undefined reference to `__cxa_begin_catch'
+Blockchain.cpp:(.text._ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_[_ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_]+0x283): undefined reference to `__cxa_rethrow'
+Blockchain.cpp:(.text._ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_[_ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_]+0x28b): undefined reference to `__cxa_end_catch'
+/tmp/cc2WGUut.o: In function `void std::vector<Block, std::allocator<Block> >::_M_realloc_insert<Block const&>(__gnu_cxx::__normal_iterator<Block*, std::vector<Block, std::allocator<Block> > >, Block const&)':
+Blockchain.cpp:(.text._ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_[_ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_]+0x211): undefined reference to `__cxa_begin_catch'
+Blockchain.cpp:(.text._ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_[_ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_]+0x283): undefined reference to `__cxa_rethrow'
+Blockchain.cpp:(.text._ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_[_ZNSt6vectorI5BlockSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_]+0x28b): undefined reference to `__cxa_end_catch'
+/tmp/cc2WGUut.o: In function `Block::Block(Block&&)':
+Blockchain.cpp:(.text._ZN5BlockC2EOS_[_ZN5BlockC5EOS_]+0x1f): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+Blockchain.cpp:(.text._ZN5BlockC2EOS_[_ZN5BlockC5EOS_]+0x58): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+Blockchain.cpp:(.text._ZN5BlockC2EOS_[_ZN5BlockC5EOS_]+0x73): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)'
+/tmp/cc2WGUut.o: In function `std::vector<Block, std::allocator<Block> >::_M_check_len(unsigned long, char const*) const':
+Blockchain.cpp:(.text._ZNKSt6vectorI5BlockSaIS0_EE12_M_check_lenEmPKc[_ZNKSt6vectorI5BlockSaIS0_EE12_M_check_lenEmPKc]+0x5b): undefined reference to `std::__throw_length_error(char const*)'
+/tmp/cc2WGUut.o: In function `__gnu_cxx::new_allocator<Block>::allocate(unsigned long, void const*)':
+Blockchain.cpp:(.text._ZN9__gnu_cxx13new_allocatorI5BlockE8allocateEmPKv[_ZN9__gnu_cxx13new_allocatorI5BlockE8allocateEmPKv]+0x2c): undefined reference to `std::__throw_bad_alloc()'
+Blockchain.cpp:(.text._ZN9__gnu_cxx13new_allocatorI5BlockE8allocateEmPKv[_ZN9__gnu_cxx13new_allocatorI5BlockE8allocateEmPKv]+0x46): undefined reference to `operator new(unsigned long)'
+/tmp/cc2WGUut.o: In function `Block* std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<Block*>, Block*>(std::move_iterator<Block*>, std::move_iterator<Block*>, Block*)':
+Blockchain.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIP5BlockES4_EET0_T_S7_S6_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIP5BlockES4_EET0_T_S7_S6_]+0x77): undefined reference to `__cxa_begin_catch'
+Blockchain.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIP5BlockES4_EET0_T_S7_S6_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIP5BlockES4_EET0_T_S7_S6_]+0x8f): undefined reference to `__cxa_rethrow'
+Blockchain.cpp:(.text._ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIP5BlockES4_EET0_T_S7_S6_[_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIP5BlockES4_EET0_T_S7_S6_]+0x97): undefined reference to `__cxa_end_catch'
+/tmp/ccodb2hT.o: In function `sha256(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+sha256.cpp:(.text+0x842): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::length() const'
+sha256.cpp:(.text+0x853): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str() const'
+sha256.cpp:(.text+0x8e9): undefined reference to `std::allocator<char>::allocator()'
+sha256.cpp:(.text+0x906): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)'
+sha256.cpp:(.text+0x915): undefined reference to `std::allocator<char>::~allocator()'
+sha256.cpp:(.text+0x93f): undefined reference to `std::allocator<char>::~allocator()'
+collect2: error: ld returned 1 exit status
