@@ -13,7 +13,7 @@ string Block::GetHash() {
 }
 
 void Block::MineBlock(uint32_t nDifficulty) {
-  char cstr[nDifficulty + 1];
+  char* cstr = new char[nDifficulty + 1];
 
   for (uint32_t i = 0; i < nDifficulty; ++i) {
     cstr[i] = '0';
@@ -28,7 +28,12 @@ void Block::MineBlock(uint32_t nDifficulty) {
     _sHash = _CalculateHash();
   } while(_sHash.substr(0, nDifficulty) != str);
 
-  cout << "Block mined: " << _sHash << endl;
+  cout << "Proof of Work (PoW): " << _nNonce << endl;
+
+  cout << "ID: " << _sData << endl;
+
+  cout << "Block mined: " << _sHash << endl << endl;
+  delete cstr;
 }
 
 inline string Block::_CalculateHash() const{

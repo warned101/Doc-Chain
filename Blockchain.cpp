@@ -2,7 +2,7 @@
 
 Blockchain::Blockchain() {
   _vChain.emplace_back(Block(0, "Genesis Block"));
-  _nDifficulty = 4;
+  _nDifficulty = 5;
 }
 
 void Blockchain::AddBlock(Block bNew) {
