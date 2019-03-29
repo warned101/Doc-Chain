@@ -30,7 +30,7 @@ void Block::MineBlock(uint32_t nDifficulty) {
     _sHash = _CalculateHash();
   } while(_sHash.substr(0, nDifficulty) != str);
 
-  show_progress_bar(std::clog, 100, "progress", '#');
+  show_progress_bar(std::clog, 101, "progress", '#');
 
   std::cout << endl << "Index: " << _nIndex << '\n';
 

@@ -10,6 +10,8 @@ class Blockchain {
 
     void AddBlock(Block bNew);
 
+    void getData();
+
   private:
     uint32_t _nDifficulty;
     vector<Block> _vChain;
