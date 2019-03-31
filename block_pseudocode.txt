@@ -1,0 +1,14 @@
+class Block
+  public
+    Declare sPrevHash as string
+    Declare constructor Block(uint32_t nIndexIn, const string &sDataIn)
+    Declare method GetHash() as string
+    Declare MineBlock(uint32_t nDifficulty) as void type
+
+  private:
+    Declare 32 bit unsigned integer _nIndex
+    Declare 54 bit unsigned integer _nNonce
+    Declare string _sData and _sHash
+    Declare time variable _tTime
+
+    Declare constant function _CalculateHash() of string type
