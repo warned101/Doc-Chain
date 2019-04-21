@@ -5,7 +5,7 @@
 #include "sha256.h"
 #include "progress.h"
 
-Block::Block(uint32_t nIndexIn, const string &sDataIn) : _nIndex(nIndexIn), _sData(sDataIn) {
+Block::Block(uint32_t nIndexIn, const string &sDataIn, const string &certificateNoIn) : _nIndex(nIndexIn), _sData(sDataIn), certificateNo(certificateNoIn) {
   _nNonce = -1;
   _tTime = time(nullptr);
 }
@@ -38,6 +38,8 @@ void Block::MineBlock(uint32_t nDifficulty) {
 
   cout << "ID: " << _sData << endl;
 
+  cout << "certificate No: " << certificateNo << endl;
+
   cout << "Previous Hash: " << "\033[1;31m" << sPrevHash << "\033[0m\n" << '\n';
 
   cout << "Block mined: " << "\033[1;32m" << _sHash << "\033[0m\n" << endl;
@@ -49,7 +51,7 @@ void Block::MineBlock(uint32_t nDifficulty) {
 inline string Block::_CalculateHash() const{
   std::stringstream ss;
 
-  ss << _nIndex << _tTime << _sData << _nNonce << sPrevHash;
+  ss << _nIndex << _tTime << _sData << certificateNo << _nNonce << sPrevHash;
 
   return sha256(ss.str());
 }

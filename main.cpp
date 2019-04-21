@@ -7,9 +7,9 @@ int main() {
   Blockchain bChain;
 
   std::cout<<"Mining block 1...\n";
-  bChain.AddBlock(Block(1, "500054210"));
+  bChain.AddBlock(Block(1, "500054210", "12345"));
   std::cout<<"Mining block 2...\n";
-  bChain.AddBlock(Block(2, "500054707"));
+  bChain.AddBlock(Block(2, "500054707", "23457"));
   std::cout<<"Mining block 3...\n";
   bChain.AddBlock(Block(3, "500054128"));
   std::cout<<"Mining block 4...\n";
