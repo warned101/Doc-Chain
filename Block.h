@@ -13,6 +13,8 @@ class Block {
 
     void MineBlock(uint32_t nDifficulty);
 
+    void DatabaseAccess();
+
   private:
     uint32_t _nIndex;
     int64_t _nNonce;
